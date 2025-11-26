@@ -1,0 +1,16 @@
+{
+	"required": true,
+	"package": "com.example.mixin.client",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"ExampleClientMixin",
+		"LivingEntityRendererMixin",
+		"PlayerEntityMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"mixins": [
+		"PlayerEntityMixin"
+	]
+}
