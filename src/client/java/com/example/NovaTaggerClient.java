@@ -16,7 +16,7 @@ import java.util.concurrent.ConcurrentHashMap;
 
 public class NovaTaggerClient implements ClientModInitializer {
 
-	private static final String API_URL = "https://managing-jaquith-lmaozeekid-5bf1cd1b.koyeb.app/api/v1/overall?search="; // Added semicolon here
+	private static final String API_URL = "https://managing-jaquith-lmaozeekid-5bf1cd1b.koyeb.app/api/v1/overall?search=";
 	private static final HttpClient HTTP_CLIENT = HttpClient.newHttpClient();
 	private static final Gson GSON = new Gson();
 
@@ -130,4 +130,5 @@ public class NovaTaggerClient implements ClientModInitializer {
 		public double points;
 		public boolean retired;
 	}
+
 }
